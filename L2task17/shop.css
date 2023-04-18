@@ -1,0 +1,30 @@
+.h1 {
+    color: rgb(7, 136, 7);
+    font-family: cursive;
+    background-color: rgb(255, 251, 0);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;  
+}
+
+.img-hover:hover{
+    cursor: pointer;
+    content: attr(data-second-src);
+    transition: all 0.5s;
+}
+
+h2 {
+    color: rgb(22, 161, 22);
+    font-family: cursive;
+    font-size: large;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: medium;
+}
+
+.col-md-3{
+    text-align: center;
+}
